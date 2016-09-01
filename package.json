@@ -1,5 +1,5 @@
 {
-  "name": "htmlify",
+  "name": "fileify",
   "version": "1.0.0",
   "description": "in browserify, you can require html,json,css files,and return string or json.",
   "main": "index.js",

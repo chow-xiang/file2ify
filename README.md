@@ -34,6 +34,9 @@ or:
         ]
     }
 
+**example :**
+
+    npm run example
 
 **Important:** 
 1, It's updating now, so can be able to require file's type is `html`, `css`, `json`.
