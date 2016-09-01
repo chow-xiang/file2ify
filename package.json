@@ -1,0 +1,26 @@
+{
+  "name": "htmlify",
+  "version": "1.0.0",
+  "description": "in browserify, you can require html,json,css files,and return string or json.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "example": "node ./example/buildAll.js"
+  },
+  "keywords": [
+    "require",
+    "html",
+    "browserify"
+  ],
+  "author": "chow xiang",
+  "license": "ISC",
+  "dependencies": {
+    "through2": "^2.0.1"
+  },
+  "devDependencies": {
+    "browserify": "^13.1.0",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-fs": "^2.4.3",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}
