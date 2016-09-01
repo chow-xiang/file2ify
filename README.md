@@ -13,6 +13,7 @@ E.g:
 It's to require a html file, rendering in js file.
 
 **Setup:**
+
     npm install fileify --production
 
 **use like :**
