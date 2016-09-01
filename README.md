@@ -1,5 +1,5 @@
 # This is a simple loader for browserify, like webpack.
----
+
 **fileify** is extending features as much as possible like **file-loader**.
 
 E.g:
