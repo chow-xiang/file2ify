@@ -13,7 +13,9 @@ E.g:
 It's to require a html file, rendering in js file.
 
 **Setup:**
-use like : 
+    npm install fileify --production
+
+**use like :**
 
     bundle.transform( fileify, {
         extension : ['html', 'css', 'json'] //be able to require file's type
