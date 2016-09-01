@@ -10,7 +10,10 @@
   "keywords": [
     "require",
     "html",
-    "browserify"
+    "json",
+    "css",
+    "browserify",
+    "gulp"
   ],
   "author": "chow xiang",
   "license": "ISC",
