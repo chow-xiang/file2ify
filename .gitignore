@@ -1,5 +1,5 @@
 # ignore any vim files:
 
 node_modules
-/build/*
+build/
 npm-debug.log
