@@ -1,12 +1,12 @@
 "use strict";
 
-var utils   = require('./lib/');
+var file2Utils   = require('./lib/');
 var through = require("through2");
 
 var utils = {
-    'html' : utils.file2str,
-    'css'  : utils.file2str,
-    'json' : utils.file2json
+    'html' : file2Utils.file2str,
+    'css'  : file2Utils.file2str,
+    'json' : file2Utils.file2json
 };
 
 
