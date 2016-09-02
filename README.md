@@ -1,4 +1,4 @@
-# This is a simple loader for browserify, like webpack.
+### This is a simple loader for browserify, like `file-loader` for webpack.
 
 **file2ify** is extending features as much as possible like **file-loader**.
 

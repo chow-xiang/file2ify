@@ -1,6 +1,6 @@
 {
   "name": "file2ify",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "in browserify, you can require html,json,css files,and return string or json.",
   "main": "index.js",
   "scripts": {
