@@ -1,6 +1,6 @@
 # This is a simple loader for browserify, like webpack.
 
-**fileify** is extending features as much as possible like **file-loader**.
+**file2ify** is extending features as much as possible like **file-loader**.
 
 E.g:
 
@@ -14,27 +14,24 @@ It's to require a html file, rendering in js file.
 
 **Setup:**
 
-    npm install fileify --production
+    npm install file2ify --production
 
 **use like :**
 
-    bundle.transform( fileify, {
+    bundle.transform( file2ify, {
         extension : ['html', 'css', 'json'] //be able to require file's type
     } ).
 
-or: 
-
-    browserify -t jadeify entry.js -o bundle.js
 
 or:
 
     "browserify": {
         "transform": [
-            ["fileify", { "extension" : ['html', 'css', 'json'] }]
+            ["file2ify", { "extension" : ['html', 'css', 'json'] }]
         ]
     }
 
-**example :**
+**examples :**
 
     npm run example
 
