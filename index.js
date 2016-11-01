@@ -12,7 +12,7 @@ var utils = {
 
 module.exports = function (fileName, opt) {
 
-    var extension       = opt.extension || ['html', 'css', 'json', 'ejs'];
+    var extension       = opt.extension || ['html', 'css', 'json'];
     var extensionFilter = new RegExp('.(' + extension.join('|') + ')$');
     var fileType        = extensionFilter.exec(fileName);
 
@@ -33,14 +33,9 @@ module.exports = function (fileName, opt) {
         function(cb){
             try{
 
-                var util = utils[ fileType[1] ];
-
-                moduleBody = "module.exports = " + 
-
-                        ( util ? util(str) : utils.file2str(str) )
-
-                     + ";";
+                var util   = utils[ fileType[1] ] || utils.html;
                 
+                moduleBody = "module.exports = " + util(str) + ";";
             }catch(e){
 
                 this.emit('error', e);
