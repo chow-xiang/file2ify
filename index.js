@@ -12,7 +12,7 @@ var utils = {
 
 module.exports = function (fileName, opt) {
 
-    var extension       = opt.extension || ['html', 'css', 'json'];
+    var extension       = opt.extension || ['html', 'css', 'json', 'ejs'];
     var extensionFilter = new RegExp('.(' + extension.join('|') + ')$');
     var fileType        = extensionFilter.exec(fileName);
 
